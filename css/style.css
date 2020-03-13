@@ -1,0 +1,84 @@
+@font-face {
+    font-family: hans;
+    src: local(hans), url(/fonts/NeueHansKendrick-Regular.ttf)    
+}
+
+body {
+    margin: 0;
+    padding: 60px 0;
+    background-color: #e2e7ec;
+}
+
+h1 {
+    font-family: hans;
+    font-size: 30px;
+    color: white;
+    text-transform: uppercase;
+}
+
+h2 {
+    font-family: hans;
+    font-size: 22px;
+    color: #1d1d1d;
+    text-transform: uppercase;
+}
+
+
+
+.mainer {
+    max-width: 1120px;
+    width: 100%;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.mainer span {
+    font-family: hans;
+    font-size: 13px;
+    color: #818181;
+    text-transform: uppercase;
+}
+
+.mainer img {margin-bottom: 30px;}
+
+.main-cell {
+    display: flex;
+    align-items: flex-end;
+    font-family: hans;
+    min-width: 740px;
+    min-height: 540px;
+    background-image: url(/images/main-pic.png);
+    margin-bottom: 20px;
+    padding: 20px;
+    box-sizing: border-box;
+}
+
+.description {padding: 0 28px;
+    display: flex;
+    flex-direction: column;
+}
+
+.cell {min-height: 540px;
+    max-width: 360px;
+    width: 100%;
+    margin-bottom: 20px;
+    background-color: white;
+}
+
+.avatar {margin-top: 45px;
+    background-image: url(/images/avatar.png);
+    width: 54px;
+    height: 54px;
+}
+
+.load {display: flex;
+justify-content: center;
+width: 100%;
+line-height: 32px;
+margin-top: 80px;}
+
+.load img {
+    margin: 0 15px;
+}
