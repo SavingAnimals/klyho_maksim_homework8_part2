@@ -10,6 +10,7 @@ body {
 }
 
 h1 {
+    padding: 0 28px;
     font-family: hans;
     font-size: 30px;
     color: white;
@@ -17,6 +18,7 @@ h1 {
 }
 
 h2 {
+    padding: 0 28px;
     font-family: hans;
     font-size: 22px;
     color: #1d1d1d;
@@ -35,6 +37,7 @@ h2 {
 }
 
 .mainer span {
+    padding: 0 28px;
     font-family: hans;
     font-size: 13px;
     color: #818181;
@@ -55,22 +58,28 @@ h2 {
     box-sizing: border-box;
 }
 
-.description {padding: 0 28px;
+.description {
+    height: 100%;
+    padding: 0 0;
     display: flex;
     flex-direction: column;
+    vertical-align: bottom;
+    
 }
 
-.cell {min-height: 540px;
+.cell {height: 540px;
     max-width: 360px;
     width: 100%;
     margin-bottom: 20px;
     background-color: white;
 }
 
-.avatar {margin-top: 45px;
+.avatar {
+    background-repeat: no-repeat;
     background-image: url(images/avatar.png);
     width: 54px;
     height: 54px;
+    margin: auto 28px 28px 28px;
 }
 
 .load {display: flex;
