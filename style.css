@@ -49,7 +49,7 @@ h2 {
     font-family: hans;
     min-width: 740px;
     min-height: 540px;
-    background-image: url(/images/main-pic.png);
+    background-image: url(images/main-pic.png);
     margin-bottom: 20px;
     padding: 20px;
     box-sizing: border-box;
@@ -68,7 +68,7 @@ h2 {
 }
 
 .avatar {margin-top: 45px;
-    background-image: url(/images/avatar.png);
+    background-image: url(images/avatar.png);
     width: 54px;
     height: 54px;
 }
